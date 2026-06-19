@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.book-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    border-bottom: 1px solid #991B1B;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book-row div {
+    padding: 18px 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    color: #991B1B;
+    width: 20%;
+}
+
+.book-row:hover {
+    background-color: #fff0f0;
+}
+
+.book-row td:first-child {
+    font-weight: bold;
+}
